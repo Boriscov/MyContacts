@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [29/Nov/2019:00:31:41 +0100] "GET /BorisProject/login HTTP/1.1" 200 1112
+127.0.0.1 - - [29/Nov/2019:13:38:09 +0100] "GET / HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [29/Nov/2019:13:38:17 +0100] "GET /BorisProject/registration HTTP/1.1" 200 2138
+0:0:0:0:0:0:0:1 - - [29/Nov/2019:13:38:17 +0100] "GET /BorisProject/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Nov/2019:13:38:43 +0100] "POST /BorisProject/registration HTTP/1.1" 200 2138

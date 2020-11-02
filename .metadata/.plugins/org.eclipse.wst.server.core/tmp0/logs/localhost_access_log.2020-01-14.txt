@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:07:56 +0100] "GET /BorisProject/userDetails?idUser=9 HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:08:13 +0100] "GET /BorisProject/deleteUser?idUser=49 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:08:13 +0100] "GET /BorisProject/userList HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:08:20 +0100] "GET /BorisProject/userList HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:08:29 +0100] "GET /BorisProject/userList HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:08:50 +0100] "GET /BorisProject/logout HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:09:12 +0100] "GET /BorisProject/logout HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:09:45 +0100] "GET /BorisProject/userList HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:10:22 +0100] "GET /BorisProject/logout HTTP/1.1" 200 1196
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:10:29 +0100] "POST /BorisProject/login HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:10:31 +0100] "GET /BorisProject/userList HTTP/1.1" 200 8408
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:10:32 +0100] "GET /BorisProject/userDetails?idUser=9 HTTP/1.1" 200 925
+0:0:0:0:0:0:0:1 - - [14/Jan/2020:01:10:36 +0100] "GET /BorisProject/logout HTTP/1.1" 200 1196

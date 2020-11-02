@@ -1,0 +1,8 @@
+package com.statista.weather.app;
+
+/**
+ * Please refer to https://darksky.net/dev/docs on how to access
+ * the DarkSky API. The API key to use will be provided.
+ */
+public class DarkSkyWeatherService implements IWeatherService {
+}

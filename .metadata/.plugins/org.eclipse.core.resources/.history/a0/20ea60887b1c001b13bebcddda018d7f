@@ -1,0 +1,13 @@
+package com.statista.weather.app;
+
+import org.springframework.http.ResponseEntity;
+
+/**
+ * Please add useful methods to this interface to retrieve weather information
+ */
+public interface IWeatherService {
+	
+	//location
+	//public String location(double latitude, double longitude);
+	public ResponseEntity<String> getcurrentWeather(double latitude, double longitude);
+}

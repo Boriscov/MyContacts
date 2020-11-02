@@ -1,0 +1,8 @@
+1580045894586	Rename type 'UniversityOfXxxApplication'
+1580045897140	Rename type 'UniversityOfXxxApplicationTests'
+1580052475612	Rename package 'com.university.service'
+1580058370829	Move 'login.html' to 'templates'
+1580059453386	Move 'index.html' to 'static'
+1580071215598	Rename field 'roleName'
+1580071229874	Rename local variable 'roleName'
+1580072087592	Rename field 'id'

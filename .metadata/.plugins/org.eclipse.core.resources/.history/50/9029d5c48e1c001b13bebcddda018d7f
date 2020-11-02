@@ -1,0 +1,42 @@
+package com.statista.weather.app;
+
+import java.util.Scanner;
+
+//import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.ResponseEntity;
+
+//import com.sid.MyContactsApplication;
+
+@SpringBootApplication
+public class App{
+
+    /**
+     * Either create a simple console application
+     * or a javaFx application which sources the DarkSky
+     * API to retrieve the current weather information for the given
+     * location on the planet.
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+    	
+    	SpringApplication.run(App.class, args);
+    	
+    	Scanner scanner = new Scanner(System.in);
+    	System.out.println("Längengrad abgeben:");
+    	double latitude =  scanner.nextDouble();
+    	
+    	Scanner scanner2 = new Scanner(System.in);
+    	System.out.println("Breitengrad abgeben:");
+    	double longitude =  scanner2.nextDouble();
+    	
+    	IWeatherService d = new DarkSkyWeatherService();
+    	ResponseEntity<String> s = d.getcurrentWeather(latitude, longitude);
+    	System.out.println(s);
+
+    }
+
+	
+}

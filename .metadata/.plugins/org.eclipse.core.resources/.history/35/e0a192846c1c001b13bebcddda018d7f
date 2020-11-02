@@ -1,0 +1,12 @@
+package com.statista.weather.app;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Please refer to https://darksky.net/dev/docs on how to access
+ * the DarkSky API. The API key to use will be provided.
+ */
+
+@RestController
+public class DarkSkyWeatherService implements IWeatherService {
+}

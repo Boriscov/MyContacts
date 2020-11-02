@@ -1,0 +1,8 @@
+127.0.0.1 - - [19/Dec/2019:16:57:42 +0100] "GET / HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:11:41 +0100] "GET /BorisProject/userList HTTP/1.1" 200 980
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:11:41 +0100] "GET /BorisProject/style.css;jsessionid=DD94E444E5F459C495F8A9C8C550FDDE HTTP/1.1" 200 1858
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:11:41 +0100] "GET /BorisProject/test.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:11:43 +0100] "GET /favicon.ico HTTP/1.1" 404 1096
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:13:25 +0100] "GET /BorisProject/registration;jsessionid=DD94E444E5F459C495F8A9C8C550FDDE HTTP/1.1" 200 9133
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:13:25 +0100] "GET /BorisProject/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Dec/2019:17:13:25 +0100] "GET /BorisProject/MyJs.js HTTP/1.1" 304 -

@@ -1,0 +1,32 @@
+package com.statista.weather.app;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * Please refer to https://darksky.net/dev/docs on how to access
+ * the DarkSky API. The API key to use will be provided.
+ */
+
+@RestController
+public class DarkSkyWeatherService implements IWeatherService {
+
+	@Override
+	@RequestMapping(value="/{latitude}/{longitude}", method = RequestMethod.GET)
+	public ResponseEntity<String> getcurrentWeather(@PathVariable double latitude, @PathVariable double longitude) {
+		
+		String key = "e03bb3b63cad0286e4d1573353e4fb67";
+		String forecastURL = "https://api.darksky.net/forecast/" + key +
+                "/" + latitude + "," + longitude;
+		
+		RestTemplate restTemplate = new RestTemplate();
+		ResponseEntity<String> response = restTemplate.getForEntity(forecastURL, String.class);
+		
+		return response;
+	}
+	
+}

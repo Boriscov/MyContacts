@@ -1,0 +1,11 @@
+package com.statista.weather.app;
+
+/**
+ * Please add useful methods to this interface to retrieve weather information
+ */
+public interface IWeatherService {
+	
+	//location
+	//public String location(double latitude, double longitude);
+	//public String weather();
+}

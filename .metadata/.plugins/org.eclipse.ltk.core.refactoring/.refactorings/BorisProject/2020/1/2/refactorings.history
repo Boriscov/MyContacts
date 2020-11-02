@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;ATT_USERDETAILS&apos; in &apos;web.UserDetails&apos; to &apos;ATT_USER_DETAILS&apos;&#x0D;&#x0A;- Original project: &apos;BorisProject&apos;&#x0D;&#x0A;- Original element: &apos;web.UserDetails.ATT_USERDETAILS&apos;&#x0D;&#x0A;- Renamed element: &apos;web.UserDetails.ATT_USER_DETAILS&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;ATT_USERDETAILS&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;web{UserDetails.java[UserDetails^ATT_USERDETAILS" name="ATT_USER_DETAILS" references="true" setter="false" stamp="1578363404120" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package com.statista.weather.app;
+
+public class App {
+
+    /**
+     * Either create a simple console application
+     * or a javaFx application which sources the DarkSky
+     * API to retrieve the current weather information for the given
+     * location on the planet.
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+    	
+    	
+
+    }
+
+}

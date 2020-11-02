@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Oct 01 03:32:32 CEST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\LENOVO\\Desktop\\os-cillation\\BorisProject\\WebContent\\lib\\tomcat7-websocket.jar=lib/tomcat7-websocket.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\LENOVO\\Desktop\\os-cillation\\BorisProject\\WebContent\\webapps\\docs\\appdev\\sample\\sample.war=webapps/docs/appdev/sample/sample.war
