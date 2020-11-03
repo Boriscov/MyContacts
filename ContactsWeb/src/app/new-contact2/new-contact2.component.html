@@ -1,0 +1,34 @@
+<div class="container spacer">
+  <div class="panel panel-default">
+    <div class="panel-heading">Enter a contact</div>
+    <div class="panel-body">
+      <!--form #f="ngForm": formular with id = f.
+          (ngSubmit)=onSaveContact(f.value): call method onSaveContact if submit.
+          f.value: Call all elements of the formular -->
+      <form #f="ngForm" (ngSubmit)="onSaveContact(f.value)">
+        <div class="form-group">
+          <label class="control-label">Name:</label>
+          <input #name="ngModel"class="form-control" type="text" ngModel name="lastName" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Firstname:</label>
+          <input class="form-control" type="text" ngModel name="firstName" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Email:</label>
+          <input class="form-control" type="email" ngModel name="email" required email="">
+        </div>
+        <div class="form-group">
+          <label class="control-label">Date of birth:</label>
+          <input class="form-control" type="date" ngModel name="dateOfBirth" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Tel:</label>
+          <input class="form-control" type="text" ngModel name="tel" required>
+        </div>
+
+        <button [disabled]="!f.valid" type="submit" class="btn btn-primary">Save</button>
+      </form>
+    </div>
+  </div>
+</div>
